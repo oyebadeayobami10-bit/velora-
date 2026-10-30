@@ -1,0 +1,385 @@
+
+nav{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 70px;
+
+}
+.navbar{
+    display: flex;
+    align-items: center;
+}
+.nav-links {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #222;
+    font-size: 12px;
+}
+.logo h2 {
+    font-size: 24px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    color: #222;
+}
+.cart-container {
+    display: flex;
+    align-items: center;
+}
+.cta-container button{
+    background-color: rgb(23, 22, 22);
+    color: white;
+    text-transform: uppercase;
+    border: none;
+    font-weight: bold;
+    padding:5px ;
+    
+}
+.cta-container button:hover{
+    background: transparent;
+    border: 2px solid black;
+    color: black;
+
+}
+.cta-container #icon{
+    font-size: 1.5rem;
+}
+.cta-container{
+    display: flex;
+    gap: 20px;
+    
+}
+.cart-container{
+    position: relative;
+}
+.circle{
+    width: 5px;
+    height: 5px;
+    background-color: lime;
+    display: flex;
+    border-radius: 50%;
+    padding: 2px 7px;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+}
+/* HOME HERO */
+.home-hero {
+    background-color: #faf9f1;
+    padding: 15px 25px 55px;
+    border-top: 2px dotted #299cff;
+}
+
+/* INTRODUCTION */
+.hero-intro {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.hero-label {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.hero-label .dot {
+    width: 7px;
+    height: 7px;
+    background-color: #baff00;
+    border-radius: 10px;
+}
+
+.hero-label p {
+    font-size: 10px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.home-hero .hero-description {
+    width: 280px;
+    font-size: 12px;
+    line-height: 1.5;
+    color: #555;
+    margin: 0;
+}
+
+/* MAIN HEADING */
+.home-hero h1 {
+    font-family: Georgia, serif;
+    font-size: 44px;
+    font-weight: bold;
+    margin: 12px 0 15px;
+    color: #050505;
+}
+
+/* DESCRIPTION */
+
+.story-content > p {
+    font-size: 12px;
+    line-height: 1.8;
+    color: #555;
+    margin-bottom: 15px;
+}
+
+/* MATERIALS AND ENGINEERING */
+/* ==========================
+   OUR STORY SECTION
+========================== */
+
+.story-section {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1.1fr);
+    align-items: center;
+    gap: 40px;
+    width: 100%;
+    padding: 55px 25px;
+    background-color: #f5f4ec;
+    box-sizing: border-box;
+}
+
+/* LEFT IMAGE */
+
+.story-image {
+    position: relative;
+    width: 100%;
+    min-width: 0;
+}
+
+.story-image img {
+    display: block;
+    width: 100%;
+    height: 420px;
+    object-fit: cover;
+}
+
+/* VELORA MATRIX LABEL */
+
+.story-image-label {
+    position: absolute;
+    justify-content: right;
+    
+right: 15px;
+bottom: 15px;
+    width: fit-content;
+    max-width: 85%;
+    padding: 10px 15px;
+    background-color: white;
+    color: #171616;
+    box-sizing: border-box;
+    z-index: 2;
+}
+
+.story-image-label p {
+    font-size: 9px;
+    color: #777;
+    letter-spacing: 1px;
+    margin: 0 0 6px;
+}
+
+.story-image-label h3 {
+    font-size: 14px;
+    color: #171616;
+    margin: 0;
+}
+
+/* RIGHT CONTENT */
+
+.story-content {
+    width: 100%;
+    min-width: 0;
+    padding: 0;
+}
+
+.story-label {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+.story-label span {
+    width: 20px;
+    height: 2px;
+    background-color: #baff00;
+}
+
+.story-label p {
+    font-size: 10px;
+    letter-spacing: 1.5px;
+    color: #555;
+    margin: 0;
+}
+
+.story-content h2 {
+    font-family: Georgia, serif;
+    font-size: 38px;
+    margin: 0 0 20px;
+    color: #171616;
+}
+
+.story-content > p {
+    font-size: 12px;
+    line-height: 1.8;
+    color: #555;
+    margin-bottom: 15px;
+}
+
+/* MATERIALS AND ENGINEERING */
+
+.story-specifications {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 12px;
+    width: 100%;
+    margin-top: 25px;
+}
+
+.story-specifications > div {
+    background-color: white;
+    padding: 16px;
+    min-width: 0;
+    box-sizing: border-box;
+}
+
+.story-specifications span {
+    display: block;
+    font-size: 9px;
+    letter-spacing: 1px;
+    color: #777;
+    margin-bottom: 7px;
+}
+
+.story-specifications h3 {
+    font-size: 13px;
+    margin: 0;
+    color: #171616;
+}
+
+/* IMPACT SECTION */
+
+.impact-section {
+    width: 100%;
+    padding: 25px;
+    box-sizing: border-box;
+    background-color: white;
+}
+
+.impact-heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 35px;
+}
+
+.impact-heading p,
+.impact-heading > span {
+    font-size: 9px;
+    letter-spacing: 1px;
+}
+
+.impact-heading p {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+.impact-section .dot {
+    display: inline-block;
+    width: 6px;
+    height: 6px;
+    background-color: #baff00;
+    border-radius: 50%;
+    flex-shrink: 0;
+}
+/* STATISTICS CARDS */
+
+.impact-cards {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 15px;
+}
+
+.impact-card {
+    background-color: #faf9f1;
+    padding: 15px;
+    min-width: 0;
+    box-sizing: border-box;
+}
+
+.impact-card-heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 8px;
+}
+
+.impact-card-heading p {
+    font-size: 9px;
+    letter-spacing: 1px;
+    margin: 0;
+}
+
+.impact-card h2 {
+    font-family: Georgia, serif;
+    font-size: 40px;
+    margin: 0 0 5px;
+    color: #050505;
+}
+
+.impact-card h2 small {
+    font-size: 15px;
+    font-weight: normal;
+}
+
+.impact-card h5 {
+    font-size: 9px;
+    margin: 0 0 5px;
+}
+
+/* COLLECTION BANNER */
+
+.collection-banner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    margin-top: 38px;
+    padding: 22px 25px;
+    background-color: #eeede6;
+    box-sizing: border-box;
+}
+
+.banner-text p {
+    font-size: 9px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    margin: 0 0 6px;
+}
+
+.banner-text h2 {
+    font-family: Georgia, serif;
+    font-size: 19px;
+    margin: 0;
+}
+
+.collection-banner button {
+    background-color: #050505;
+    color: white;
+    border: none;
+    padding: 13px 25px;
+    font-size: 9px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+.collection-banner button:hover {
+    background-color: #baff00;
+    color: #050505;
+}
