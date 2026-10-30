@@ -23,6 +23,11 @@ nav{
     gap:10px;
     align-items: center;
 }
+.nav-links a{
+    text-decoration: none;
+    color: #111111;
+    
+}
 .cart-container {
     display: flex;
     align-items: center;
@@ -309,11 +314,12 @@ text-align: left;
 .built-container {
     background-color: black;
     color: white;
-    padding: 60px 40px;
+    padding: 20px 40px;
     display: flex; 
     justify-content: space-between; 
     align-items: center;
      gap: 40px;
+     margin: 50px 0px;
 }
 
 .built-label {
